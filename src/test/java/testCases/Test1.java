@@ -24,6 +24,7 @@ public class Test1 {
 		Assert.assertEquals(driver.getTitle(), "eBay India Seller Center");
 		System.out.println("Completed");
 		Assert.assertEquals(driver.getTitle(), "eBay India Seller Center");
+		System.out.println("New Line added");
 	}
 
 }
