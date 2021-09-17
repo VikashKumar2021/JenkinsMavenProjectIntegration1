@@ -16,7 +16,7 @@ pipeline {
                        not {
                             branch "master"                             
                        }
-                      echo "Hello! It is not master branch" 
+                   
                        
                  }
                  steps {
