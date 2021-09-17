@@ -15,6 +15,7 @@ pipeline {
                  when {
                        not {
                             branch "master"
+                             echo "Hello! It is not master branch"
                        }
                  }
                  steps {
